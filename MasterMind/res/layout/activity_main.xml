@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/easy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="@string/mastermind"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/medium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:onClick="chooseDifficulty"
+        android:text="@string/easy" />
+    
+    <Button
+        android:id="@+id/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:onClick="chooseDifficulty"
+        android:text="@string/medium" />
+
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/easy"
+        android:layout_centerVertical="true"
+        android:onClick="chooseDifficulty"
+        android:text="@string/hard" />
+    
+    <Button
+        android:id="@+id/nameEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/enter_name" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/debug_mode" /> 
+
+</RelativeLayout>

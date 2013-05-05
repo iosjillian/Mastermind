@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MasterMind</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_master_mind">MasterMind</string>
+    <string name="title_activity_you_win_dialog">You Win!</string>
+    <string name="view_high_scores">View High Scores</string>
+    <string name="play_again">Play Again</string>
+    <string name="you_win_">You Win!</string>
+    <string name="title_activity_show_scores">High Scores</string>
+    <string name="done">Done</string>
+    <string name="_">" "</string>
+    <string name="you_lose">You Lose</string>
+    <string name="title_activity_name_input_dialog_fragment">NameInputDialogFragment</string>
+    <string name="mastermind">MasterMind</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="debug_mode">Debug Mode</string>
+
+</resources>
